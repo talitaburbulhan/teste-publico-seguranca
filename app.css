@@ -9,10 +9,7 @@ html, body{
     box-sizing: border-box; /* na largura dos elementos, considera o padding */
 }
 
-main{
-    width: 100%;
-    height: 100%;
-}
+
 
 .passos{
     width: 100%;
@@ -27,7 +24,11 @@ main{
 .passos > div {  /* Regra que seleciona os filhos diretos da classe passos. No nosso caso, seleciona as div que contêm os svgs */
 
     position: absolute;  /* empilhou as imagens uma em cima da outra. A diferença entre o POSITION FIXED e o POSITION ABSOLUTE é que o fixed "vai ficar fixo na página" e o absolute "vai ficar fixo no pai desse elemento", no caso o "passos". Se "passos" mudar de posição, todas as divs vao junto com ele, empilhadas uma em cima da outra. */
+    display: none;
+}
 
+.passos > div.passo-ativo{
+    display: flex;
 }
 
 .gatilhos {
