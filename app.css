@@ -8,3 +8,35 @@ html, body{
 * {
     box-sizing: border-box; /* na largura dos elementos, considera o padding */
 }
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+.passos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed; /* Qualquer elemento que tiver esta propriedade vai ficar fixo na página (não vai rolar, nao vai mudar de posição. Vai ficar onde você colocar ele) */
+}
+
+.passos > div {  /* Regra que seleciona os filhos diretos da classe passos. No nosso caso, seleciona as div que contêm os svgs */
+
+    position: absolute;  /* empilhou as imagens uma em cima da outra. A diferença entre o POSITION FIXED e o POSITION ABSOLUTE é que o fixed "vai ficar fixo na página" e o absolute "vai ficar fixo no pai desse elemento", no caso o "passos". Se "passos" mudar de posição, todas as divs vao junto com ele, empilhadas uma em cima da outra. */
+
+}
+
+.gatilhos {
+
+    position: absolute; /* Porque eu quero que ele fique por cima das imagens */
+}
+
+.gatilhos > div {
+    border: 1px solid red;
+    height: 100vh;
+    height: 100vw;
+}
