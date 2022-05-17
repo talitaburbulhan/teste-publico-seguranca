@@ -41,7 +41,7 @@ h3 {
     width: 100%;
     height: 100%;
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: center;
     position: fixed; /* Qualquer elemento que tiver esta propriedade vai ficar fixo na página (não vai rolar, nao vai mudar de posição. Vai ficar onde você colocar ele) */
 }
@@ -58,7 +58,7 @@ h3 {
 
 .passos img {
 
-    width: 100%;
+    width: 80%;
 }
 
 
@@ -77,4 +77,8 @@ h3 {
     height: 100vh;
     width: 100vw;
     padding: 10%;
+}
+
+.final {
+    margin-bottom: 50vh;
 }
