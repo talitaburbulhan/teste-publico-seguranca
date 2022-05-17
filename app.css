@@ -49,16 +49,22 @@ h3 {
 
 
 
-
 .passos > div {  /* Regra que seleciona os filhos diretos da classe passos. No nosso caso, seleciona as div que contêm os svgs */
 
     position: absolute;  /* empilhou as imagens uma em cima da outra. A diferença entre o POSITION FIXED e o POSITION ABSOLUTE é que o fixed "vai ficar fixo na página" e o absolute "vai ficar fixo no pai desse elemento", no caso o "passos". Se "passos" mudar de posição, todas as divs vao junto com ele, empilhadas uma em cima da outra. */
     display: none;
-    
+      
 }
+
+.passos img {
+
+    width: 100%;
+}
+
 
 .passos > div.passo-ativo{
     display: flex;
+    flex-direction: column;
 }
 
 .gatilhos {
