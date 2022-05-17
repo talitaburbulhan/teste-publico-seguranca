@@ -44,6 +44,7 @@ h3 {
     align-items: top;
     justify-content: center;
     position: fixed; /* Qualquer elemento que tiver esta propriedade vai ficar fixo na página (não vai rolar, nao vai mudar de posição. Vai ficar onde você colocar ele) */
+    margin-top:0;
 }
 
 
