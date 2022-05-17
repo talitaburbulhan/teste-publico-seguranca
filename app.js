@@ -1,6 +1,6 @@
 function escutaRolagem(){
 
-    let gatilhos = document.querySelectorAll('.gatilhos > div');
+    let gatilhos = document.querySelectorAll('.gatilhos > div[data-alvo]');
     
     for(let gatilho of gatilhos){   
 
