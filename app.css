@@ -9,7 +9,7 @@ html, body{
 
 * {
     box-sizing: border-box; /* na largura dos elementos, considera o padding */
-    max-width: 700px;
+    max-width: 650px;
     margin: 1em auto;  /*Para centralizar o conteúdo*/
     
 }
@@ -20,8 +20,15 @@ h1 {
     color: #d2002d;
 }
 
-h3 {
+h2 {
+    
     font-size: 24px;
+    color: #636363;
+
+}
+
+h3 {
+    font-size: 18px;
     margin-top: 0;
     margin-bottom: 1.5em;
     color: #636363;
