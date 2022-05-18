@@ -35,6 +35,10 @@ h3 {
     font-weight: 400;
   }
 
+.rodape {
+    font-size: small;
+    font-weight: bold;
+}
 
 
 .passos{
@@ -59,7 +63,7 @@ h3 {
 
 .passos img {
 
-    width: 80%;
+    width: 100%;
 }
 
 
